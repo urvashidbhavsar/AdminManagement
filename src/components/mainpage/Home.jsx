@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Navbar, Nav, Button } from 'react-bootstrap'
+import { Container, Navbar, Nav, Button, TabContainer } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom';
 const Home = () => {
 
@@ -23,6 +23,13 @@ const Home = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
+      <div className='container-fluid'>
+        <div className="row">
+          <div className="col-3"></div>
+          <div className="col-9"></div>
+        </div>
+      </div>
     </>
   )
 }

@@ -12,9 +12,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Login />}></Route>
-          <Route path='/Home' element={<Stricklylogin />}>
-            <Route path='/Home' element={<Home />}></Route>
-          </Route>
+          {/* <Route path='/Home' element={<Stricklylogin />}> */}
+          <Route path='/Home' element={<Home />}></Route>
+          {/* </Route> */}
         </Routes>
       </BrowserRouter>
 
