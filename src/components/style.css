@@ -3,7 +3,25 @@
   margin: 110px auto;
 }
 
+@media (max-width:576px) {
+  .formblock {
+    width: 100%;
+  }
+}
+
 .registerblock {
   width: 500px;
   margin: 100px auto;
+}
+
+.sidebar {
+  height: 100vh;
+  box-shadow: 5px 0 5px gray;
+}
+
+/* .mainpage {} */
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
