@@ -23,7 +23,7 @@ const Login = () => {
   const checkValidate = (e) => {
     e.preventDefault();  // Prevents page reload
     if (storedItem.username === input.username && storedItem.password === input.password) {
-      localStorage.setItem("loginuser", username)
+      localStorage.setItem("loginuser", input.username)
       navigate("/Home")
     } else {
       alert("Invalid Values!!!");
